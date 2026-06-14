@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Image Gallery</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background">
+
+<div class="blob blob1"></div>
+
+<div class="blob blob2"></div>
+
+<div class="blob blob3"></div>
+
+</div>
+
+<div class="container">
+
+<h1>Image Gallery</h1>
+
+<p>HTML • CSS • JavaScript Gallery</p>
+
+<div class="gallery">
+
+<img src="images/img1.jpg" onclick="openImage(this.src)">
+
+<img src="images/img2.jpg" onclick="openImage(this.src)">
+
+<img src="images/img3.jpg" onclick="openImage(this.src)">
+
+<img src="images/img4.jpg" onclick="openImage(this.src)">
+
+<img src="images/img5.jpg" onclick="openImage(this.src)">
+
+<img src="images/img6.jpg" onclick="openImage(this.src)">
+
+</div>
+
+</div>
+
+<div class="preview" id="preview">
+
+<span onclick="closeImage()">&times;</span>
+
+<img id="previewImage">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
